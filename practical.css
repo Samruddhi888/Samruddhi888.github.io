@@ -71,4 +71,88 @@ nav.btn{
     text-decoration: none;
 }
 
+.status{
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    position: relative;
+    background-color: white;
+    border: 2px solid white;
+    border-radius:5px ;
+    box-shadow:10px 10px 40px rgb(32,32,184);
+}
+
+.flight-status{
+    width: 90%;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(32,32,184);
+    margin: auto;
+    position: relative;
+}
+
+.flight-status span{
+    width: 105px;
+    text-align: center;
+    background-color: white;
+}
+
+.flight-status i{
+    padding: 0 5px;
+}
+
+.search{
+    width: 50px;
+    height: 35px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+.option{
+    display: flex;
+    justify-content: space-between;
+}
+
+.option i{
+    padding:0 10px ;
+}
+
+.option ul{
+    display: flex;
+    list-style: none;
+    margin: 15px 25px;
+}
+
+.option ul li{
+    padding: 0 30px;
+}
+
+.option p{
+    margin: 15px 25px;
+}
+
+.check ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin: 15px 0;
+}
+
+.check ul i{
+    padding: 0 10px;
+}
+
+.check.line{
+    border-bottom: 2px solid rgb(32,32,184);
+    width: 200px;
+    text-align: center;
+    padding: 4px 0;
+}
+
+
 
